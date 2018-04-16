@@ -4,6 +4,8 @@ A repository for my TMB function libraries. Part of my push to refactor my workf
 
 I hope these functions are useful beyond my own work. Feel free to suggest functions, or to fork and golf my code. Submit a pull request, I'd love to see this grow from community involvement.
 
+The main thing I ask if you're golfing my code is that you refrain from changing function inputs and outputs (including side effects - I know, poor functional style), as this will create errors in my work where I apply these functions. Of course, I'm open to suggestion and discussion on all parts of this repo, so if you feel strongly about changing the function I/O start an issue.
+
 ## How to use
 
 Add an #include statement to the top of the *.cpp file containing your TMB model. For example, to include the stockAssessmentFuns.hpp library:

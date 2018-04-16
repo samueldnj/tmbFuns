@@ -12,7 +12,7 @@ Add an #include statement to the top of the *.cpp file containing your TMB model
     
     #include "<path-to>/tmbFuns/stockAssessmentFuns.hpp"
 
-where <path-to> is replaced with the actual file path. 
+where ```<path-to>``` is replaced with the actual file path. 
 
 Alternatively, you can copy your library file to your working directory, and use the statement
     
